@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/store";
 import "./index.css";
@@ -9,7 +9,8 @@ import Login from "./pages/Login";
 import ErrorPage from "./components/ErrorPage";
 import reportWebVitals from "./reportWebVitals";
 import { AuthRouteGuard } from "./store/authMiddleware";
-const router = createBrowserRouter([
+
+const router = createHashRouter([
 	{
 		path: "/",
 		element: <Login />,
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
 	},
 	{
 		path: "/home",
-		element: <AuthRouteGuard element={<Home />} />, // Wrap the App component with AuthRouteGuard
+		element: <AuthRouteGuard element={<Home />} />,
 	},
 ]);
 
