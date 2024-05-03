@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-simple-maps": "^3.0.4"
+    "@types/react-simple-maps": "^3.0.4",
+    "gh-pages": "^6.1.1"
   }
 }
