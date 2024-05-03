@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Earthshot/static/css/main.d08cdcf3.css",
+    "main.js": "/Earthshot/static/js/main.46695bae.js",
+    "static/js/453.79c85e9e.chunk.js": "/Earthshot/static/js/453.79c85e9e.chunk.js",
+    "static/media/loginImage.jpg": "/Earthshot/static/media/loginImage.cddb5fed529a10e1dbd3.jpg",
+    "index.html": "/Earthshot/index.html",
+    "main.d08cdcf3.css.map": "/Earthshot/static/css/main.d08cdcf3.css.map",
+    "main.46695bae.js.map": "/Earthshot/static/js/main.46695bae.js.map",
+    "453.79c85e9e.chunk.js.map": "/Earthshot/static/js/453.79c85e9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d08cdcf3.css",
+    "static/js/main.46695bae.js"
+  ]
+}
